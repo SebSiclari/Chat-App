@@ -1,0 +1,126 @@
+/* Body Style */ 
+
+body { 
+    background-color:rgba(0, 0, 0, 0.856);
+    height:100%;
+    width:100%; 
+    margin: 0;
+} 
+
+/* Chat Title and Container Style */
+
+.navbar { 
+  text-align: left;
+  font-family: monospace;
+  font-size: x-large;
+  background-color: #1a578f;
+  padding: 40px ;
+  color: #e7ecee; 
+  width: 100%; 
+  display: block;
+  box-sizing: content-box; 
+  position:fixed; 
+  top:0;
+}
+
+/*  Container-Page Style*/
+
+#container-page { 
+  margin-top:100px;
+  margin-bottom: 100px;   
+  display:block; 
+  overflow: auto;
+}
+
+/* Computer MSG Contaner(Dark)*/
+
+.container {
+    
+    background-color: #3b3838;
+    border-radius: 5px;
+    padding: 4%;
+    margin: 4% 0; 
+    color:white;
+    font-family: Georgia;
+    float:left;
+    width:60%;
+    height:40%;
+}
+  
+/* User chat container(blue) */
+
+.lighter {
+
+    background-color: #1479ac;  
+    float: right;
+    width:60%;
+    height:40%;
+}
+  
+/* Computer time text */
+
+.time-right {
+  float: right;
+  color: white;
+}
+
+/* User time text */
+
+.time-left {
+    float: left;
+    color: white;
+} 
+
+/* Chatbox */
+
+#chat { 
+    position: center;
+    width:100%
+} 
+
+/* Chatbox MSG Style & Size */ 
+
+#text-chat {
+  width: 90%;
+  height: 1%;
+  background-color: #3b3838;
+  color: white;
+  border-radius:0;
+  border:0;
+  outline:none;
+  padding: 10px 10px;
+  font-weight: 300;
+  font-size:16px; 
+  float:center;
+  box-sizing: border-box;
+  padding-block-end: inherit;
+  padding: 1em;
+  resize:none
+} 
+
+/* Chatbox form style  */
+
+#chatbox { 
+  position:fixed; 
+  bottom:0; 
+  display:block; 
+  box-sizing: content-box;
+  width: 100%;
+} 
+
+/* Send MSG Button Style */
+
+#press { 
+  float: right;
+  position:absolute;
+  height: 35px;
+  background-color: #3b3838;
+  color: white;
+  border-radius: 0;
+  width: 10%;
+  text-align: start;
+  height: 95%;
+  font-size: medium; 
+  border:none;
+  outline:none;
+}
